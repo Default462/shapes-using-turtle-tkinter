@@ -56,12 +56,24 @@ def _D():
     shape.circle(200,180)
 
 def _E():
-    pass
+    shape.bk(100)
+    shape.left(90)
+    shape.fd(100)
+    shape.right(90)
+    shape.fd(100)
+    shape.bk(100)
+    shape.right(90)
+    shape.fd(200)
+    shape.left(90)
+    shape.fd(100)
+
+
+
 
 turtle_area.pack()
 shape = turtle.RawTurtle(turtle_area)
 shape.width(10)
-_D()
+_E()
 
 
 
