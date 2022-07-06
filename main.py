@@ -38,7 +38,6 @@ def _B():
     shape.circle(100,180)
 
 def _C():
-
     shape.pu()
     shape.sety(200)
     shape.pd()
@@ -68,12 +67,71 @@ def _E():
     shape.fd(100)
 
 
+def _F():
+    shape.bk(100)
+    shape.left(90)
+    shape.fd(100)
+    shape.right(90)
+    shape.fd(100)
+    shape.bk(100)
+    shape.right(90)
+    shape.fd(200)
 
+def _G():
+    shape.pu()
+    shape.sety(200)
+    shape.pd()
+    shape.left(180)
+    shape.circle(200, 260)
+    shape.left(100)
+    shape.forward(200)
 
+def _H():
+    shape.bk(100)
+    shape.left(90)
+    shape.forward(100)
+    shape.bk(200)
+    shape.forward(100)
+    shape.right(90)
+    shape.forward(100)
+    shape.left(90)
+    shape.forward(100)
+    shape.bk(200)
+
+def _I():
+    shape.left(90)
+    shape.fd(100)
+    shape.right(90)
+    shape.forward(60)
+    shape.bk(120)
+    shape.forward(60)
+    shape.right(90)
+    shape.forward(200)
+    shape.left(90)
+    shape.fd(60)
+    shape.bk(120)
+
+def _J():
+    shape.left(90)
+    shape.forward(100)
+    shape.right(90)
+    shape.forward(60)
+    shape.bk(140)
+    shape.forward(80)
+    shape.right(90)
+    shape.forward(150)
+    shape.pu()
+    shape.right(90)
+    shape.forward(100)
+    shape.left(180)
+    shape.pd()
+
+    shape.right(90)
+    shape.circle(50,180)
 turtle_area.pack()
 shape = turtle.RawTurtle(turtle_area)
 shape.width(10)
-_E()
+_J()
 
 
 
