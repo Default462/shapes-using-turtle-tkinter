@@ -125,13 +125,58 @@ def _J():
     shape.forward(100)
     shape.left(180)
     shape.pd()
-
     shape.right(90)
     shape.circle(50,180)
+
+def _K():
+    shape.pu()
+    shape.left(90)
+    shape.fd(100)
+    shape.pd()
+    shape.bk(200)
+    shape.pu()
+    shape.forward(100)
+    shape.pd()
+    shape.right(45)
+    shape.forward(130)
+    shape.bk(130)
+    shape.right(90)
+    shape.forward(140)
+
+def _L():
+    shape.pu()
+    shape.left(90)
+    shape.forward(100)
+    shape.pd()
+    shape.backward(200)
+    shape.right(90)
+    shape.forward(100)
+
+def _M():
+    shape.left(90)
+    shape.fd(200)
+    shape.right(135)
+    shape.forward(100)
+    shape.left(90)
+    shape.fd(100)
+    shape.right(135)
+    shape.forward(200)
+
+def _N():
+    shape.left(90)
+    shape.fd(200)
+    shape.right(150)
+    shape.forward(225)
+    shape.left(150)
+    shape.forward(200)
+
+def _O():
+    shape.circle(100,90)
+
 turtle_area.pack()
 shape = turtle.RawTurtle(turtle_area)
 shape.width(10)
-_J()
+_O()
 
 
 
