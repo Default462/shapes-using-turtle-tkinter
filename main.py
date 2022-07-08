@@ -171,12 +171,52 @@ def _N():
     shape.forward(200)
 
 def _O():
-    shape.circle(100,90)
+    shape.circle(100)
+
+def _P():
+    shape.circle(50, 180)
+    shape.left(90)
+    shape.fd(200)
+
+def _Q():
+    shape.circle(100)
+    shape.circle(100,20)
+    shape.right(50)
+    shape.fd(70)
+
+def _R():
+    shape.circle(50, 180)
+    shape.left(90)
+    shape.fd(200)
+    shape.bk(100)
+    shape.left(35)
+    shape.fd(115)
+
+def _S():
+    shape.pu()
+    shape.left(90)
+    shape.fd(100)
+    shape.right(90)
+    shape.fd(100)
+    shape.circle(100, 50)
+    shape.pd()
+    shape.left(90)
+    shape.circle(100,180)
+    shape.left(30)
+    shape.fd(100)
+    shape.right(120)
+    shape.pu()
+    shape.fd(200)
+    shape.pd()
+    shape.left(90)
+    shape.circle(100,180)
+
+def _T():
 
 turtle_area.pack()
 shape = turtle.RawTurtle(turtle_area)
 shape.width(10)
-_O()
+_S()
 
 
 
