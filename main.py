@@ -212,11 +212,29 @@ def _S():
     shape.circle(100,180)
 
 def _T():
+    shape.left(90)
+    shape.bk(100)
+    shape.fd(200)
+    shape.left(90)
+    shape.fd(60)
+    shape.bk(120)
+
+def _U():
+    shape.pu()
+    shape.left(90)
+    shape.fd(100)
+    shape.left(90)
+    shape.fd(100)
+    shape.pd()
+    shape.left(90)
+    shape.fd(150)
+    shape.circle(60,180)
+    shape.fd(150)
 
 turtle_area.pack()
 shape = turtle.RawTurtle(turtle_area)
 shape.width(10)
-_S()
+_U()
 
 
 
