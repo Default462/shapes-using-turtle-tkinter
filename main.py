@@ -231,10 +231,17 @@ def _U():
     shape.circle(60,180)
     shape.fd(150)
 
+def _V():
+    shape.left(70)
+    shape.fd(100)
+    shape.bk(200)
+    shape.left(40)
+    shape.fd(200)
+
 turtle_area.pack()
 shape = turtle.RawTurtle(turtle_area)
 shape.width(10)
-_U()
+_V()
 
 
 
