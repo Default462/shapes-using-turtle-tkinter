@@ -238,10 +238,66 @@ def _V():
     shape.left(40)
     shape.fd(200)
 
+
+def _W():
+    shape.pu()
+    shape.right(135)
+    shape.fd(50)
+    shape.right(90)
+    shape.fd(200)
+    shape.pd()
+    shape.left(145)
+    shape.fd(200)
+    shape.left(120)
+    shape.fd(100)
+    shape.right(75)
+    shape.fd(100)
+    shape.left(120)
+    shape.fd(200)
+
+def _X():
+    shape.left(45)
+    shape.fd(150)
+    shape.bk(150)
+    shape.left(90)
+    shape.fd(150)
+    shape.bk(150)
+    shape.left(90)
+    shape.fd(150)
+    shape.bk(150)
+    shape.left(90)
+    shape.fd(150)
+    shape.bk(150)
+    shape.left(90)
+
+def _Y():
+    shape.left(45)
+    shape.fd(100)
+    shape.bk(100)
+    shape.left(90)
+    shape.fd(100)
+    shape.bk(100)
+    shape.left(135)
+    shape.fd(150)
+    
+def _Z():
+    shape.pu()
+    shape.left(145)
+    shape.fd(150)
+    shape.pd()
+    shape.right(145)
+    shape.fd(150)
+    shape.right(145)
+    shape.fd(200)
+    shape.left(145)
+    shape.fd(150)
+
+
 turtle_area.pack()
 shape = turtle.RawTurtle(turtle_area)
 shape.width(10)
-_V()
+
+_Z()
 
 
 
